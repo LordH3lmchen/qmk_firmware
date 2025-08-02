@@ -19,7 +19,10 @@
 
 /* Handedness. */
 #define MASTER_RIGHT
-
+/* Tappiung term in ms default is 200. */
+#define TAPPING_TERM 220
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+// To use the handedness pin, resistors need to be installed on the adapter PCB.
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.
 // #define SPLIT_HAND_PIN GP15
@@ -29,3 +32,5 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
+
+#define ENABLE_RGB_MATRIX_CYCLE_ALL
