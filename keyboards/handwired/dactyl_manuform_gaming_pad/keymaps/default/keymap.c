@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ENTER   ,  KC_L,    KC_LCTL,    KC_A,  KC_S,  KC_D,  KC_F,  KC_G,
         KC_BSPC   ,  KC_U,    KC_B,    KC_Z,  KC_X,  KC_C,  KC_V,
         KC_GRV,       KC_N,     KC_M,   KC_Y,   KC_H,
-        KC_LSFT,  KC_SPACE,  KC_LCTL, KC_LALT, KC_ENTER, MO(_FN)
+        KC_LSFT,  KC_SPACE,  KC_LCTL, KC_ENTER, KC_LALT, MO(_FN)
     ),
     [_FN] = LAYOUT_dactyl_gaming_pad(
         QK_BOOT,  KC_TRNS,  KC_TRNS,   KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,
